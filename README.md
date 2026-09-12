@@ -22,19 +22,14 @@ dsh-AGE 是一个**无聊插件**，用来在 dsh 的网页界面里模拟「安
 ## 安装
 
 ```sh
-dsh plugin --profile web add github:<owner>/dsh-age
+dsh plugin --profile web add github:pekeyTeam/dsh-AGE
 ```
 
-装完重启 dsh。想固定到某个版本：
-
-```sh
-dsh plugin --profile web add github:<owner>/dsh-age#<commit-sha>
-```
 
 卸载：
 
 ```sh
-dsh plugin --profile web remove dsh-age
+dsh plugin --profile web remove dsh-AGE
 ```
 
 ---
