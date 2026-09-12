@@ -22,19 +22,16 @@ dsh-AGE is a **pointless plugin** that simulates the "security component scannin
 ## Install
 
 ```sh
-dsh plugin --profile web add github:<owner>/dsh-age
+dsh plugin --profile web add github:pekeyTeam/dsh-AGE
 ```
 
 Restart dsh afterwards. To pin a version:
 
-```sh
-dsh plugin --profile web add github:<owner>/dsh-age#<commit-sha>
-```
 
 Remove it with:
 
 ```sh
-dsh plugin --profile web remove dsh-age
+dsh plugin --profile web remove dsh-AGE
 ```
 
 ---
